@@ -1,0 +1,45 @@
+.title {
+    font-size: 40px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar span {
+    font-weight: bold;
+}
+
+.navbar-nav a {
+    margin-left: 30px;  
+    font-size: 14px;
+}
+
+.jumbotron {
+    background-size: cover;
+    height: 100%;
+}
+
+.col-5 {
+    padding-top: 170px;
+}
+
+.two {
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+.card-title {
+    font-size: 17px;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+.row {
+    
+}
