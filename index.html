@@ -1,61 +1,60 @@
-<html lang="en">
+<html lang="en" id="home">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Portfolio Yudha Permana</title>
 </head>
 
-<body id="home">
-    
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm p-2 bg-white fixed">
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm py-auto bg-white">
         <div class="container">
-            <a class="navbar-brand"><span>YUDHA</span>Permana</a>
+            <a class="navbar-brand"><span>YUDHA</span>PERMANA</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
                     <a class="nav-link active" href="#home">Home<span class="sr-only">(current)</span></a>
                     <a class="nav-link" href="#about">About</a>
                     <a class="nav-link" href="#skill">Skill</a>
                     <a class="nav-link" href="#Education">Education</a>
-                    <a class="nav-link btn btn-outline-dark" href="#contact">Contact</a>
+                    <a class="nav-link btn btn-light shadow-sm" href="#contact">Contact</a>
                 </div>
             </div>
         </div>
     </nav>
+    <!-- Akhir Navbar -->
 
-    <section class="Home">
-        <div class="container-fluid" >
-            <div class="jumbotron jumbotron-fluid" data-src="assets/img/home.png" style="background-image: url(assets/img/home.png); background-size: cover; height: 100%; transform: scale(20px);">
-                <div class="row">
-                    <div class="col">
-
-                    </div>
-                    <div class="col-5 pl-1">
-                        <div class="content-text fixed">
-                            <h5 class="one mb-0">Hi There, I'm</h5>
-                            <h1 class="two display-4 mb-0">Yudha Permana</h1>
-                            <h4 class="three">Developer & Photographer</h4>
-                        </div>
-                    </div>
+    <!-- Jumbotron -->
+    <section>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="content-text">
+                    <h5 class="one mb-0">Hi There, I'm</h5>
+                    <h1 class="two display-4 mb-0">Yudha Permana</h1>
+                    <h4 class="three">Developer & Photographer</h4>
                 </div>
             </div>
-        </div>
     </section>
-    
+    <!-- Akhir Jumbotron -->
+
+    <!-- About -->
     <section id="about" class="about">
         <div class="container pt-3">
-            <h4 class="title border-bottom mb-3">About Us</h4>
+            <h4 class="title border-bottom mb-3 2">About Us</h4>
             <p>Saya Yudha Permana. Saya berasal dari Bandung, Jawa Barat. Dan saat ini saya merupakan mahasiswa dari salah satau universitas yang ada di Bandung yaitu Universitas Pasundan. Saya mengambil jurusan Teknik Informatika dan saya memiliki hobi yaitu photography</p>
         </div>
     </section>
+    <!-- Akhir About -->
 
+    <!-- Skill -->
     <section id="skill" class="skill">
         <div class="container pt-3">
-            <h4 class="title border-bottom mb-3">Skill</h4>
+            <h4 class="title border-bottom mb-3 3">Skill</h4>
             <p class="my-1 ">WEB DEVELOPMENT</p>
             <div class="progress mb-2" style="height: 12px">
                 <div class="progress-bar bg-dark" role="progressbar" style="width: 75%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
@@ -74,10 +73,12 @@
             </div>
         </div>
     </section>
+    <!-- Akhir Skill -->
 
+    <!-- Education -->
     <section id="Education">
         <div class="container pt-3">
-            <h4 class="title border-bottom mb-4">Education</h4>
+            <h4 class="title border-bottom mb-4 4">Education</h4>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="card align-items-center pt-3" style="width: ;">
@@ -112,16 +113,22 @@
             </div>
         </div>
     </section>
+    <!-- Akhir Education -->
 
+    <!-- Contact -->
     <section id="contact">
         <div class="container pt-3">
-            <h4 class="title border-bottom mb-4">Contact Us</h4>
+            <h4 class="title border-bottom mb-4 text-center 5">Contact Us</h4>
             <div class="row justify-content-center">
                 <div class="col-lg-4">
                     <div class="card bg-light mb-3 text-center shadow-sm p-3 mb-4 bg-white rounded">
                         <div class="card-body">
                             <h5 class="card-title">Contact Us</h5>
-                            <p class="card-text">pyudha0902@gmail.com</p>
+                            <div class="icon">
+                                <a href="https://www.instagram.com/yudhapmna/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/yupmna"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <a href="https://www.facebook.com/yudha.p.thea.9"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                            </div>
                         </div>
                     </div>
                     <ul class="list-group shadow-sm p-3 mb-5 bg-white rounded">
@@ -158,26 +165,24 @@
             </div>
         </div>
     </section>
+    <!-- Akhir Contact -->
 
+    <!-- Footer -->
     <footer class="bg-dark text-white">
         <div class="container">
             <div class="row pt-3">
                 <div class="col text-center">
-                    <p>Copyright 2020.</p>
+                    <p>Copyright & copy 2020, by Yudha Permana</p>
                 </div>
             </div>
         </div>
     </footer>
-
-
-
-
-
-
-
+    <!-- Akhir Footer -->
 
 
     <script src="js/jquery-3.5.1.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
