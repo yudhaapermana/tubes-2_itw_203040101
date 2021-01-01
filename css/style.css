@@ -46,7 +46,7 @@ section {
 
 /*  CSS Jumbotron */
 .jumbotron {
-    background-image: url(../assets/img/home.png);
+    background-image: url(../assets/img/jumbotron-bg.png);
     background-size: cover;
     height: 390px;
 }

@@ -1,0 +1,21 @@
+assets
+IMG : 
+
+    jumbotron-bg.png        (property of Yudha Permana)
+
+    education :
+        logo-sd.png         (property of https://id.wikipedia.org/wiki/Sekolah_dasar)
+        logo-pgri.png       (property of google.com)
+        logo-smk.png        (property of google.com)
+
+    icon :
+        Instagram           (property of fontawesome.com/v4.7.0)
+        Twitter             (property of fontawesome.com/v4.7.0)
+        Facebook            (property of fontawesome.com/v4.7.0)
+
+
+FONT :
+
+    Beckman                 (property of google font)
+    Caviar Dreams Bold      (property of google font)
+    Caviar Dreams           (property of google font)
